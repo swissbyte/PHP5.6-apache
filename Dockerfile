@@ -21,3 +21,5 @@ RUN a2enmod rewrite
 RUN a2enmod headers
 
 RUN a2enmod proxy
+
+RUN a2enmod fcgid
