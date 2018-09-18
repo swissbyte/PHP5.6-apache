@@ -6,7 +6,7 @@ RUN apt-get update -y && apt-get install -y sendmail libpng-dev
 
 RUN apt-get update && \
     apt-get install -y \
-        zlib1g-dev 
+        zlib1g-dev libapache2-mod-fcgid
 
 RUN docker-php-ext-install mbstring
 
